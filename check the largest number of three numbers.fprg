@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="check the largest number of three numbers"/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:28:41 PM"/>
+        <attribute name="created" value="QXN1cztUSEFNSUxTRUxWQU47MjAyNi0wMS0wNjswMzoyMzozNSBQTTsyNTkz"/>
+        <attribute name="edited" value="QXN1cztUSEFNSUxTRUxWQU47MjAyNi0wMS0wNjswMzoyODo0MSBQTTsxOzI3MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="num3" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="num3"/>
+            <if expression="num1&gt;num2 and num1&gt;num3">
+                <then>
+                    <output expression="num1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num2&gt;num1 and num2&gt;num3">
+                        <then>
+                            <output expression="num2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="num3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Celsius to Fahrenheit"/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:22:31 PM"/>
+        <attribute name="created" value="QXN1cztUSEFNSUxTRUxWQU47MjAyNi0wMS0wNjswMzoxNTo1MCBQTTsyNTkx"/>
+        <attribute name="edited" value="QXN1cztUSEFNSUxTRUxWQU47MjAyNi0wMS0wNjswMzoyMjozMSBQTTsxOzI2OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cel" type="Integer" array="False" size=""/>
+            <input variable="cel"/>
+            <output expression="cel*9/5+32" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
