@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=1000;
+	    if (a>100){
+	        System.out.println("greater than hundred");
+	    }
+	    else{
+	        System.out.println("less than hundred");
+	    }
+	}
+	
+}
