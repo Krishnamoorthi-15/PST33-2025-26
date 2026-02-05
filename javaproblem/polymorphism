@@ -1,0 +1,29 @@
+public class polymorphism {
+
+	public static void main(String[] args) {
+	int a=10,b=10;
+	System.out.println(Method_1(a,b));
+	System.out.println(Method_2(a,b));
+	System.out.println(Method_3(a,b));
+	System.out.println(Method_4(a,b));
+	System.out.println(Method_5(a,b));
+	
+		
+		
+
+	}
+	public static int Method_1(int c ,int d){
+		return c+d;}
+	public static int Method_2(int c,int d) {
+		return c-d;
+	}
+	public static int Method_3(int c, int d) {
+		return c*d;
+	}
+	public static int Method_4(int c, int d) {
+		return c/d;
+	}
+	public static int Method_5(int c, int d) {
+		return c%d;
+	}
+}
