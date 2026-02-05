@@ -1,0 +1,21 @@
+public class SameNameMethod {
+
+	public static void main(String[] args) {
+		int c=5;
+		int d=6;
+		int f=7;
+		System.out.println(Method_1(c,d));
+		System.out.println(Method_1(c,d,f));
+
+	}
+	 
+		public static int Method_1(int s,int t){
+			return s+t;
+			
+		}
+		public static int Method_1(int d,int g,int l) {
+			return d+g+l;
+		
+			
+		}
+	}
