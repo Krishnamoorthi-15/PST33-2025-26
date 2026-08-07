@@ -1,14 +1,17 @@
 
- class Main {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-        for(int i = 1; i <= 5; i++) {
+class adult{
 
-            for(int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
+    public static void main(String args[]){
 
-            System.out.println();
+        Scanner sc = new Scanner(System.in);
+        int age =sc.nextInt();
+        if(age>=18){
+            System.out.println("adult");
+        }
+        else{
+              System.out.println("minor");
         }
     }
 }
