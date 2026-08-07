@@ -10,9 +10,9 @@ class adult{
                 if (age<=3) {
                 System.out.println("child");
             }  else if(age>=4 && age<=14){
-                System.out.println("teenager");
+                System.out.println("kid");
             } else if(age>=15 && age<=19){
-                System.out.println("young");    
+                System.out.println("teenegar");    
             } else if(age>=20 && age<=59){
                 System.out.println("adult");    
             } else {
@@ -22,4 +22,3 @@ class adult{
 }
       
     }
-}
