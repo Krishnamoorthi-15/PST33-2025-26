@@ -11,10 +11,10 @@ class adult{
             System.out.println("adult");
         }
         else if(age>=60){
-            
+
         }
         else{
-              System.out.println("minor");
+              System.out.println("young");
         }
     }
 }
